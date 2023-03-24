@@ -1,0 +1,19 @@
+body{
+    background-color: rgb(40, 39, 39);
+}
+#frame{
+    border: 2px solid black;
+}
+h4{
+    color: red;
+}
+p{
+    color: rgb(86, 86, 254);
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    text-decoration:underline;
+}
