@@ -8,9 +8,13 @@
     },
     "permissions":[
         "activeTab",
-        "tabs"
+        "tabs","alwaysonTopWindows"
+        
     ],
     "Description":"This extension help for fast chatting or sharing link between device and it is minimilistic and distraction free"
-    
+    ,"background":{
+        "scripts":["background.js"],
+        "persistent": false
+    }
 
 }

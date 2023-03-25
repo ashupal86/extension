@@ -1,0 +1,14 @@
+{
+    "name":"chatting",
+    "version":"1.0",
+    "manifest_version":2,
+    "description":"This is a chatting extension for fast chat.",
+    "persmission":[
+        "fetch",
+        "activeTab","tabs"
+
+    ],
+    "background":{
+        "service_worker":"background.js"
+    }
+}

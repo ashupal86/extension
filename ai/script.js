@@ -1,7 +1,7 @@
 const apiKey = "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";
 const query = document.getElementById("query");
 const results="";
-function btnclick(apiKey,query,results){
+function btnclick(){
 const params = {
   model: "davinci",
   documents: [],
