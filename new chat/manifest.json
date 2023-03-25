@@ -12,7 +12,7 @@
         "tabs","alwaysonTopWindows"
         
     ],
-    "Description":"This extension help for fast chatting or sharing link between device and it is minimilistic and distraction free",
+    "description":"This extension help for fast chatting or sharing link between device and it is minimilistic and distraction free",
     "background":{
         "scripts":[
             "script.js"
