@@ -1,0 +1,34 @@
+
+body{
+    background-color: rgba(0, 0, 0, 0.842);
+    display: flex;
+    flex-direction: column;
+}
+#enter{
+    background: url("bg1.jpg");
+    background-position: top;
+    background-size: cover;
+    
+image-resolution:inherit;
+    
+}
+#create{
+    background: url("bg2.png");
+   
+    background-position: top;
+    background-size: cover;
+}
+.btn{
+    width: 150px;
+    height: 40px;
+    border-radius: 25px;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    font-weight:900;
+    margin-top: 5px;
+   background-blend-mode: saturation;
+    border: transparent;
+}
+#pa{
+    color: white;
+}

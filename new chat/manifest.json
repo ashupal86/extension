@@ -1,0 +1,26 @@
+{
+    "manifest_version":2,
+    "name":"Chatt",
+    "version":"1.1.0",
+    "browser_action":{
+        "default_title":"chating",
+        "default_icon":"chat1.png",
+        "default_popup":"window.html"
+    },
+    "permissions":[
+        "activeTab",
+        "tabs","alwaysonTopWindows"
+        
+    ],
+    "Description":"This extension help for fast chatting or sharing link between device and it is minimilistic and distraction free",
+    "background":{
+        "scripts":[
+            "script.js"
+        ],
+        "persistent": false
+    },
+    "web_accessible_resources":[
+        "bg1.jpg",
+        "bg2.png"
+    ]
+}
